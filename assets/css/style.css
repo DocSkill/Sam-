@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+* {
+	padding:0;
+	margin:0;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	height: 100vh;
+}
+
+.headline {
+	font-size: 57px;
+	font-weight: 400;
+	color: #7D2EBC;
+	text-align: center;
+	padding: 358px 0 46px 0;
+}
+
+.kickerDate {
+	font-size: 36px;
+	font-weight: 400px;
+	color: #4D4D4D;
+	text-align: center;
+	padding-bottom:164px;
+}
+
+.addItemBtn {
+	text-align: center;
+	font-size: 32px;
+
+
+}
+
+.svgBtn {
+	position: absolute;
+	left: 228px;
+	padding:12px 0 0 0;
+}
+
+svg {
+	height: 62px;
+	width: 62px;
+	display: inline-block;
+	fill: #fff;
+}
+
+.addItemBtn a {
+	font-size: 32px;
+	font-weight: 400;
+	text-decoration: none;
+	color: #fff;
+
+
+}
+
+.addItemBtn .link {
+	border: none;
+	border-radius: 37px;
+	padding: 27px 127px;
+	margin:0 0 381px 0;
+	background: #7D2EBC;
+	display: inline-block;
+	box-shadow: 7px 10px 15px rgba(125,46,188,0.75);
+	cursor: pointer;
+}
+
+.footerMessage {
+	font-size: 28px;
+	font-weight: 400;
+	text-align: center;
+	color: #4D4D4D;
+	padding: 0 40px 0 40px;
+}
