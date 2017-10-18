@@ -11,24 +11,43 @@ body {
 }
 
 .headline {
-	font-size: 57px;
+	font-size: 356%;
 	font-weight: 400;
 	color: #7D2EBC;
 	text-align: center;
 	padding: 358px 0 46px 0;
+	-webkit-animation-duration:0.5s;
+	-webkit-animation-delay:0.2s;
+	-webkit-animation-iteration-count:1;
 }
 
-.kickerDate {
-	font-size: 36px;
-	font-weight: 400px;
-	color: #4D4D4D;
+.headline1 {
+	font-size: 356%;
+	font-weight: 400;
+	color: #7D2EBC;
 	text-align: center;
-	padding-bottom:164px;
+	padding: 358px 0 46px 0;
+	-webkit-animation-duration:0.5s;
+	-webkit-animation-delay:0.2s;
+	-webkit-animation-iteration-count:1;
+}
+
+.logo {
+	text-align: center;
+	margin: 60px 0 94px 0;
+	-webkit-animation-duration:0.2s;
+	-webkit-animation-delay:0.1s;
+	-webkit-animation-iteration-count:1;
+}
+
+.logo svg {
+	height: 68px;
+	width: 120px
 }
 
 .addItemBtn {
 	text-align: center;
-	font-size: 32px;
+	font-size: 200%;
 
 
 }
@@ -46,30 +65,91 @@ svg {
 	fill: #fff;
 }
 
-.addItemBtn a {
-	font-size: 32px;
-	font-weight: 400;
+.addItemBtn .link a {
+	font-size: 120%;
+	font-weight: 300;
 	text-decoration: none;
 	color: #fff;
-
-
-}
-
-.addItemBtn .link {
 	border: none;
 	border-radius: 37px;
 	padding: 27px 127px;
-	margin:0 0 381px 0;
 	background: #7D2EBC;
+	box-shadow: 7px 10px 30px rgba(125,46,188,0.50);
+}
+
+.addItemBtn .link {
+	margin: 100px 0 381px 0;
 	display: inline-block;
-	box-shadow: 7px 10px 15px rgba(125,46,188,0.75);
 	cursor: pointer;
+	-webkit-animation-duration:1s;
+	-webkit-animation-delay:0.5s;
+	-webkit-animation-iteration-count:1;
 }
 
 .footerMessage {
-	font-size: 28px;
+	font-size: 175%;
 	font-weight: 400;
 	text-align: center;
 	color: #4D4D4D;
 	padding: 0 40px 0 40px;
+}
+
+.kicker {
+	font-size: 225%;
+	font-weight: 300;
+	color: #4D4D4D;
+	text-align: center;
+	padding:0 0 152px 0;
+	-webkit-animation-duration:1s;
+	-webkit-animation-delay:0.2s;
+	-webkit-animation-iteration-count:1;
+}
+
+.textBox {
+	text-align: center;
+	margin:0 85px 0 85px;
+	outline: none;
+	-webkit-animation-duration:0.2s;
+	-webkit-animation-delay:0.1s;
+	-webkit-animation-iteration-count:1;
+}
+
+input[type="text"] {
+	font-size: 150%;
+	padding:35px 28px;
+	text-indent:1;
+	border: solid 1px #7D2EBC;
+	border-radius: 40px;
+	width: 100%
+}
+
+.addBtnContainer {
+	text-align: center;
+	margin: 152px 0 152px 0;
+}
+
+div#addBtn {
+	color: #fff;
+	font-size: 200%;
+	font-weight: 300;
+	display: inline-block;
+	padding:27px 127px;
+	background:#7D2EBC;
+	border-radius: 37px;
+	text-align: center;
+	box-shadow: 7px 10px 15px rgba(125,46,188,0.75);
+	cursor: pointer;
+}
+
+/* Media Queries */
+@media only screen and ( max-width: ) {
+
+}
+
+@media only screen and ( max-width: ) {
+	
+}
+
+@media only screen and ( max-width: ) {
+	
 }
